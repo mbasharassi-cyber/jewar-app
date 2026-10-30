@@ -1,0 +1,8 @@
+{
+  "appId": "com.jewar.app",
+  "appName": "JEWAR",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": false
+  }
+}

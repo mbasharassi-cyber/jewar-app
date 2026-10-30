@@ -1,0 +1,22 @@
+{
+  "name": "jewar-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "JEWAR - حاسبة رسوم ترخيص الأبنية",
+  "scripts": {
+    "sync": "cap sync android",
+    "test": "node tests/calc.test.js"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.6.0",
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/core": "^8.6.0",
+    "@capacitor/filesystem": "^8.1.5",
+    "@capacitor/preferences": "^8.0.1",
+    "@capacitor/share": "^8.0.3"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^4.0.0",
+    "@capacitor/cli": "^8.6.0"
+  }
+}
