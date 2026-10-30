@@ -26,6 +26,9 @@ jobs:
           java-version: 21
 
       - uses: android-actions/setup-android@v3
+        with:
+          cmdline-tools-version: "11076708"
+          accept-android-sdk-licenses: true
 
       - name: Install dependencies
         run: npm ci
